@@ -9,9 +9,8 @@ sweets_amount_gamer = None
 sweets_amount_full = int(input('Введите общее количество конфет: '))
 sweets_amount_max = int(input('Введите максимальное количество конфет которое можно взять за 1 раз: '))
 gamers = [gamer, bot] # для удобства в цикле
-is_winner = False
-winner_name = None
-
+# is_winner = False
+# winner_name = None
 if step == 1:
     print(f'По результатам жеребьевки первый ходит игрок {gamer}')
 # если первым ходит игрок и он знает логику выигрыша, у бота нет шансов, если же игрок логику не знает
